@@ -1,0 +1,6 @@
+= Welcome to Footy Tweeters
+
+Currently this project is in development.
+
+Eventually it will be a rails app (deployed on heroku) that details
+the tweet counts of footy clubs and individuals.
