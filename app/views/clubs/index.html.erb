@@ -1,5 +1,14 @@
-<% @clubs.each do |club| %>
-  <%= club.name %>
-  <%= club.twitter_username %>
-  <%= club.tweet_count %>
-<% end %>
+<table>
+  <tr>
+    <th>Club</th>
+    <th>Twitter Username</th>
+    <th>Tweets</th>
+  </tr>
+  <% @clubs.each do |club| %>
+    <tr>
+      <td><%= club.name %></td>
+      <td><%= club.twitter_username %></td>
+      <td><%= club.tweet_count %></td>
+    </tr>
+  <% end %>
+</table>
