@@ -9,7 +9,7 @@
 if Club.count == 0
   Club.create([{ :name => 'Geelong', :twitter_username => '@CatsInsider', :tweet_count => 3477 }])
   Club.create([{ :name => 'Collingwood', :twitter_username => '@Collingwood_FC', :tweet_count => 3738 }])
-  Club.create([{ :name => 'Carlton', :twitter_username => '@Carlton_FC', :tweet_count => 4671 }])
+  Club.create([{ :name => 'Carlton', :twitter_username => '@Carlton_FC', :tweet_count => 4671, :follower_count => 16827 }])
   Club.create([{ :name => 'Hawthorn', :twitter_username => '@HawthornFC', :tweet_count => 2115 }])
   Club.create([{ :name => 'West Coast', :twitter_username => '@WestCoastEagles', :tweet_count => 3603 }])
   Club.create([{ :name => 'Sydney', :twitter_username => '@sydneyswans', :tweet_count => 4412 }])

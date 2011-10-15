@@ -15,6 +15,10 @@ Then /^I want to see carlton's twitter username/ do
   page.should have_content(@carlton_fc.twitter_username)
 end
 
+Then /^I want to see carlton's follower count$/ do
+  page.should have_content(@carlton_fc.follower_count)
+end
+
 Then /^I want to see carlton's tweet count$/ do
   page.should have_content(@carlton_fc.tweet_count)
 end
@@ -30,4 +34,5 @@ Then /^I want to see the 2011 AFL clubs' tweet counts$/ do
     page.should have_content(club.tweet_count)
   end
 end
+
 

@@ -3,12 +3,14 @@
     <th>Club</th>
     <th>Twitter Username</th>
     <th>Tweets</th>
+    <th>Followers</th>
   </tr>
   <% @clubs.each do |club| %>
     <tr>
       <td><%= club.name %></td>
       <td><%= club.twitter_username %></td>
       <td><%= club.tweet_count %></td>
+      <td><%= club.follower_count %></td>
     </tr>
   <% end %>
 </table>

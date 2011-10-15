@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110625071108) do
+ActiveRecord::Schema.define(:version => 20111015071221) do
 
   create_table "clubs", :force => true do |t|
     t.string   "name",                            :null => false
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20110625071108) do
     t.datetime "updated_at",                      :null => false
     t.integer  "lock_version",     :default => 0, :null => false
     t.integer  "tweet_count",      :default => 0, :null => false
+    t.integer  "follower_count",   :default => 0, :null => false
   end
 
 end
